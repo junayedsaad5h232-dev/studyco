@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f4f4; /* Light grey background like NovelBin */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.story-container {
+    max-width: 700px;         /* Keeps the text in a readable column */
+    background: white;        /* White reading area */
+    padding: 40px 60px;       /* Breathing room for the text */
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Soft border shadow */
+    line-height: 1.8;         /* High spacing for easy reading */
+    font-size: 19px;          /* Large, clear font size */
+    color: #2c3e50;           /* Soft dark blue/grey text */
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
