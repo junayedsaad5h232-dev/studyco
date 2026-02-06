@@ -3,37 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Story</title>
+    <title>My Notebook Story</title>
     <style>
         body {
-            /* This makes the background white and sets the font */
-            background-color: #ffffff;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #333333;
+            /* This is the color of the "Desk" behind the notebook */
+            background-color: #e0e0e0; 
             margin: 0;
-            padding: 0;
+            padding: 20px 0;
+            font-family: Arial, sans-serif; /* Keeping the font you wanted */
             display: flex;
             justify-content: center;
         }
 
-        .page-container {
-            /* This mimics the document width */
-            max-width: 800px;
+        .notebook-page {
+            background-color: #fff;
             width: 100%;
-            padding: 40px 20px;
-            line-height: 1.6; /* Makes the text easy to read */
-            font-size: 18px;
+            max-width: 850px;
+            min-height: 95vh;
+            
+            /* THIS CREATES THE NOTEBOOK LINES */
+            /* Blue horizontal lines every 32 pixels */
+            background-image: linear-gradient(#b0c4de 1px, transparent 1px);
+            background-size: 100% 32px; 
+            
+            /* Shadow to make it look like paper sitting on a desk */
+            box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+            
+            /* The Red Margin Line on the left */
+            border-left: 2px solid #ff7a7a;
+            
+            /* Padding to push text away from the red line */
+            padding-left: 30px; 
+            padding-right: 20px;
+            
+            /* To handle the top of the page */
+            padding-top: 30px; 
         }
 
         p {
-            /* Adds space between paragraphs */
-            margin-bottom: 25px;
+            /* Text Settings - CRITICAL for alignment */
+            font-size: 19px; 
+            line-height: 32px; /* MUST MATCH THE BACKGROUND SIZE ABOVE */
+            color: #222;
+            
+            /* Paragraph spacing */
+            /* This must be a multiple of 32px (e.g., 32px) so the next paragraph stays on the lines */
+            margin-bottom: 32px; 
+            margin-top: 0;
         }
     </style>
 </head>
 <body>
 
-    <div class="page-container">
+    <div class="notebook-page">
+        
         <p>He could imagine how a powerful treasure, specifically designed to enhance some aspect of a Deity, could take the power of that Deity to another level. Bob, for example, could cause untold havoc by merely speaking. Now imagine if he had a Divine megaphone!</p>
 
         <p>A normal treasure, and a treasure which could generate, and use divine energy were not in the same realm. Even others, who were not deities, could make use of treasures that harnessed divine energy.</p>
@@ -50,7 +73,12 @@
 
         <p>Jack looked around, and noticed that they were still being observed by everyone. Without caring, he released the Jolly Ranchers anchor.</p>
 
-        </div>
+        <p>Write your new chapter here. As you add more text, the notebook paper will automatically get longer and draw new lines for you.</p>
+
+    </div>
+
+</body>
+</html>
 
 </body>
 </html>
