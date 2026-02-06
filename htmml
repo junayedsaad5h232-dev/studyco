@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Novel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="story-container">
+        <h1>Chapter 1: The Beginning</h1>
+        <p>Your story starts here. This layout mimics the exact width and spacing of the aggregator sites you like.</p>
+        <p>Notice how there is a gap between paragraphs? That is the "Block Spacing" we talked about earlier.</p>
+    </div>
+</body>
+</html>
